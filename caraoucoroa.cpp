@@ -1,3 +1,4 @@
+//cria um jogo para cara ou coroa.
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -7,7 +8,7 @@ int main(void)
      int n, perda =0, ganho =0;
      setlocale(LC_ALL, "Portuguese");
 
-     cout << "Quantas vezes você quer jogar ? ";
+     cout << "Quantas vezes vocÃª quer jogar ? ";
      cin >> n;
 
      for (int i=0; i < n; i++)
@@ -24,22 +25,22 @@ int main(void)
           {
                ganho ++;
                if(resp ==0)
-                    cout << "Cara, você ganhou." << endl;
+                    cout << "Cara, vocÃª ganhou." << endl;
                else
-                    cout << "Coroa, você ganhou." << endl;
+                    cout << "Coroa, vocÃª ganhou." << endl;
           }
           else
           {
                perda ++;
                if(resp ==1)
-                    cout << "Cara, você perdeu. " << endl;
+                    cout << "Cara, vocÃª perdeu. " << endl;
                else
-                    cout << "Coroa, você perdeu. " << endl;
+                    cout << "Coroa, vocÃª perdeu. " << endl;
           }
      }
-     cout << "\n\nRelatório Final : ";
-     cout << "\nNo. de jogos você ganhou: " << ganho;
-     cout << "\nNo. de jogos que você perdeu: " << perda << endl;
+     cout << "\n\nRelatÃ³rio Final : ";
+     cout << "\nNo. de jogos vocÃª ganhou: " << ganho;
+     cout << "\nNo. de jogos que vocÃª perdeu: " << perda << endl;
 
      cin.get();
 }
