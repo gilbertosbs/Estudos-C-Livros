@@ -1,3 +1,4 @@
+// programa chama uma fun√ß√£o para converter fahrenheit em celsius
 #include <iostream>
 #include <iomanip>
 int celsius (int fahr);
@@ -8,7 +9,7 @@ int main()
      cout << "Digite a temperatura em graus Fahrenheit: ";
      cin >> f;
 
-     c = celsius(f); //chamada ‡ funÁ„o
+     c = celsius(f); //chamada √† fun√ß√£o
 
      cout << "Celsius = " << c << endl;
 
@@ -16,7 +17,7 @@ int main()
 
 }
 //celsius ()
-// definiÁ„o da funÁ„o
+// defini√ß√£o da fun√ß√£o
 int celsius( int fahr)
 {
      int c;
