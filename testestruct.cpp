@@ -1,3 +1,5 @@
+//programa cria uma estrutura de dados chamada Agenda para armazenar os dados nome, endereÃ§o, cep, bairro e telefone de 4 pessoas;
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -19,10 +21,10 @@ int main()
 
      //entrada do cadastro da agenda
 
-          Agenda p1,p2, p3, p4; //definição da estrutura
-          //definição dos dados do primeiro cliente
+          Agenda p1,p2, p3, p4; //definiÃ§Ã£o da estrutura
+          //definiÃ§Ã£o dos dados do primeiro cliente
           p1.nome = "**Gilberto Pereira**";
-          p1.endereco = "São Bento do sapucaí";
+          p1.endereco = "SÃ£o Bento do sapucaÃ­";
           p1.cep = 12490-000;
           p1.bairro = "Campo Monteiro";
           p1.telefone = 12996206551;
@@ -33,9 +35,9 @@ int main()
           cout << "\n\t" << "Phone: "<< p1.telefone;
           cout <<"\n" << setw(20);
 
-          //definição dos dados do segundo cliente
-           p2.nome = "**Josefá Da Silva**";
-          p2.endereco = "São Paulo";
+          //definiÃ§Ã£o dos dados do segundo cliente
+           p2.nome = "**JosefÃ¡ Da Silva**";
+          p2.endereco = "SÃ£o Paulo";
           p2.cep = 05451-070;
           p2.bairro = "Vila Madalena";
           p2.telefone = 12998304534;
@@ -46,9 +48,9 @@ int main()
           cout << "\n\t" <<"Phone: " << p2.telefone;
           cout <<"\n" << setw(20);
 
-          //definição dos dados do terceiro cliente
+          //definiÃ§Ã£o dos dados do terceiro cliente
            p3.nome = "**Heismer Sobeck**";
-          p3.endereco = "São Paulo";
+          p3.endereco = "SÃ£o Paulo";
           p3.cep = 05452-020;
           p3.bairro = "Vila Madalena, Rua Atimba";
           p3.telefone = 1299746323;
@@ -59,9 +61,9 @@ int main()
           cout << "\n\t" << "Phone: " << p3.telefone;
           cout << "\n"<< setw(20);
 
-          //definição dos dados do quarto cliente
+          //definiÃ§Ã£o dos dados do quarto cliente
           p4.nome = "**Eudora Coelho**";
-          p4.endereco = "Bolívia";
+          p4.endereco = "BolÃ­via";
           p4.cep = 102342;
           p4.bairro = "La Paz";
           p4.telefone = 12997636422;
